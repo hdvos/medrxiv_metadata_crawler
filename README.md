@@ -4,7 +4,7 @@ Crawls https://www.medrxiv.org/ for metadata given some search terms.
 
 usage: python medrxiv_downloader.py -i search_terms.txt -o output.csv
 
-Takes a text file as input (-i) and a csv file as output. 
+Takes a text file as input (-i) and a csv file (-o) as output. 
 Input file is a text file that contains 1 search term per line.
 Output file is a csv file (tabs separated (\t)). All data will be written to this file.
 
